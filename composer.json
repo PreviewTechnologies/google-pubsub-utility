@@ -1,0 +1,20 @@
+{
+    "name": "previewtechs/google-pubsub-utility",
+    "description": "Google Pub/Sub PHP push webhook receiver object mapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shaharia Azam",
+            "email": "shaharia.azam@gmail.com"
+        }
+    ],
+    "require": {
+        "netresearch/jsonmapper": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Previewtechs\\GooglePubSubUtility\\WebHookReceiver\\": "src"
+        }
+    }
+}
